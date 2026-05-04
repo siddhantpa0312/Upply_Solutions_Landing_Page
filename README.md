@@ -1,23 +1,30 @@
 # Upply Solutions — Landing Page
 
-A small static landing page for Upply Solutions: header, hero with an interactive headline, three service cards, and a footer.
+A responsive company landing page for Upply Solutions, a fictional browser extension 
+that helps job seekers automatically fill out job applications using saved profile 
+information.
 
-## Files
+## Features
 
-| File | Role |
-|------|------|
-| `index.html` | Structure and content |
-| `style.css` | Layout, colors, and responsive rules |
-| `script.js` | Updates the hero headline when you click **Update Headline** |
+- Hero section with a live interactive headline editor using JavaScript DOM manipulation
+- Services section with three feature cards and CSS hover animations
+- Responsive layout that adapts to mobile and desktop screen sizes
+- Consistent navy and white branding throughout
 
-## Run locally
+## Technologies Used
 
-Open `index.html` in a browser (double-click the file or use a local server). No build step or dependencies.
+- HTML5
+- CSS3 (Flexbox, media queries, hover transitions)
+- Vanilla JavaScript
 
-## Behavior
+## How to Run
 
-- Enter text in the hero input and click **Update Headline** to replace the main hero heading (`#cta`). Empty input does nothing.
+Open `index.html` in any browser — no installation, build step, or dependencies required.
 
-## Stack
+## What I Learned
 
-Plain HTML, CSS, and JavaScript — no frameworks.
+This project helped me practice building a complete, styled webpage from scratch without 
+any frameworks. I learned how to use JavaScript to manipulate the DOM in response to user 
+input, structure a multi-section layout using Flexbox, and apply responsive CSS so the 
+page works on both desktop and mobile. I also practiced writing clean, organized code 
+across separate HTML, CSS, and JavaScript files.
